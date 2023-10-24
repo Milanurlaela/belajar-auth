@@ -28,7 +28,7 @@
                                     <input type="password" class="form-control @error('password') is-invalid @enderror" id="password" name="password">
                                     @if ($errors->has('password'))
                                         <span class="text-danger">{{ $errors->first('password') }}</span>
-                                    @endif
+                                    @endif 
                                 </div>
                                 <div class="form-group">
                                     <div class="custom-control custom-checkbox small">
